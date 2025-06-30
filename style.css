@@ -1,0 +1,120 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+header {
+  background-color: papayawhip;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 200px;
+}
+
+.Title {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input {
+  background-color: papayawhip;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* ---------------- MOBILE ---------------- */
+@media screen and (max-width: 767px) {
+  body {
+    background-color: maroon;
+  }
+
+  header {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .Title {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+    color: white;
+  }
+
+  input {
+    background-color: maroon;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  input#audioFile {
+    font-size: 18px;
+  }
+}
+
+/* ---------------- TABLET ---------------- */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: lightblue;
+  }
+
+  header {
+    background-color: darkslategray;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .Title {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 26px;
+    color: white;
+  }
+
+  input {
+    background-color: lightblue;
+  }
+}
+
+/* ---------------- DESKTOP ---------------- */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: whitesmoke;
+  }
+
+  header {
+    background-color: papayawhip;
+    height: 200px;
+    padding: 40px;
+  }
+
+  .Title {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
